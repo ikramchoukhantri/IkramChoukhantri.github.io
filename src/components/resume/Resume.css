@@ -11,10 +11,12 @@
 .tab__panel {
   flex: 1;
   display: none;
-  padding: 1.5rem 2rem;
+  padding: 0.5rem; /* Further reduced padding */
   background-color: var(--container-color);
   border-radius: var(--border-radius);
   box-shadow: var(--shadow);
+  max-width: 60rem; /* Set a maximum width */
+  margin: 0 auto; /* Center align the panel */
 }
 
 .tab__panel.is-active {
@@ -88,6 +90,10 @@
     margin-bottom: 1.25rem;
   }
 
+  .tab__panel {
+    padding: 0.5rem; /* Adjust padding for smaller screens */
+  }
+
   .tab__panel:first-of-type.is-active,
   .tab__panel:last-child.is-active {
     border-top-left-radius: var(--border-radius);
@@ -102,7 +108,7 @@
 
 .tab__panel-title {
   font-size: var(--h3-font-size);
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem; /* Further reduce bottom margin */
   color: var(--title-color);
 }
 
@@ -112,9 +118,19 @@
 
 .tab__panel-subtitle {
   font-size: var(--normal-font-size);
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem; /* Further reduce bottom margin */
 }
 
 [data-theme="dark"] .tab__panel-subtitle {
   color: #f8f9fa;
+}
+
+/* Additional styles to reduce white space */
+.tab__panel p,
+.tab__panel ul {
+  margin-bottom: 0.5rem; /* Further reduce bottom margin */
+}
+
+.tab__panel ul {
+  padding-left: 1rem; /* Further reduce padding left for list */
 }

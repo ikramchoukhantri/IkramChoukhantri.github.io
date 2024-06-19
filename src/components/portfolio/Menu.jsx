@@ -8,7 +8,6 @@ import Work4 from "../../assets/dwh.webp";
 import Work6 from "../../assets/airflow.webp";
 import Work7 from "../../assets/infrastructure.png";
 
-
 const Menu = [
     {
         id: 1,
@@ -59,13 +58,13 @@ const Menu = [
             </ul>
             <p><strong>Évaluation:</strong></p>
             <p>Les performances des différents modèles seront évaluées à l'aide de plusieurs métriques, telles que la précision, le rappel et la F1-score.</p>
-            <p><strong>Conclusion:</strong></p>
-            <p>Ce projet a le potentiel d'améliorer la prédiction du risque de crise cardiaque et d'aider les médecins à prendre des décisions plus éclairées concernant la prise en charge de leurs patients.</p>
-        `
+            <p><strong>Compétences :</strong></p>
+            <p>NumPy, Pandas, Matplotlib, Seaborn, Scikit-Learn, TensorFlow</p>
+        `   
     },
     {
         id: 10,
-        image: Work2,  // Replace with the correct image path
+        image: Work2,
         title: "Représentation Graphique et Classification de Texte avec des LLM et GNN",
         category: ["Data Science"],
         url: "http://example.com/project10",
@@ -90,11 +89,12 @@ const Menu = [
                 <li>Construction de graphes sémantiques.</li>
                 <li>Entraînement d'un modèle GNN pour la classification des graphes.</li>
             </ul>
+            <p><strong>Évaluation :</strong></p>
+            <p>Les performances du modèle seront évaluées en utilisant des métriques de classification standard telles que la précision, le rappel et la F1-score.</p>
             <p><strong>Compétences :</strong></p>
             <p>BERT (Language Model), PyTorch, Pytorch Geometric, Cytoscape, NLTK</p>
         `
     },
-    
     {
         id: 3,
         image: Work3,
@@ -117,7 +117,7 @@ const Menu = [
     },
     {
         id: 8,
-        image: Work4,  // Replace with the correct image path
+        image: Work4,
         title: "Modélisation et Implémentation d’un Entrepôt de Données pour ForestAI",
         category: ["Business Intelligence"],
         url: "http://example.com/project8",
@@ -135,9 +135,10 @@ const Menu = [
                 <li>Processus ETL : Mise en œuvre de processus ETL efficaces avec SSIS.</li>
                 <li>Génération de Cubes : Création de cubes OLAP avec SSAS pour l'analyse multidimensionnelle des données.</li>
             </ul>
+            <p><strong>Compétences :</strong></p>
+            <p>Microsoft SQL Server, SQL Server Analysis Services (SSAS), SQL Server Integration Services (SSIS), SQL Server Reporting Services (SSRS), Microsoft Power BI, SQL</p>
         `
     },
-    
     {
         id: 4,
         image: Work5,
@@ -162,7 +163,7 @@ const Menu = [
     },
     {
         id: 9,
-        image: Work6,  // Replace with the correct image path
+        image: Work6,
         title: "Pipeline de Données avec Apache Airflow",
         category: ["Data Engineering"],
         url: "http://example.com/project9",
@@ -186,9 +187,10 @@ const Menu = [
                 <li>Analyse des Données : Analyse descriptive pour obtenir une vue d’ensemble des données. Analyse des tendances. Analyse des sentiments des commentaires avec les modèles de Hugging Face.</li>
                 <li>Visualisation des Données : Utilisation de Tableau pour créer des tableaux de bord interactifs affichant les principaux KPI des chaînes YouTube.</li>
             </ul>
+            <p><strong>Compétences :</strong></p>
+            <p>Apache Kafka, Apache Airflow, Apache NiFi, Docker</p>
         `
     },
-    
     {
         id: 5,
         image: Work7,
@@ -207,6 +209,8 @@ const Menu = [
                 <li>Configurer des quotas de disque pour gérer l'utilisation du stockage.</li>
                 <li>Utiliser Active Directory pour centraliser la gestion des utilisateurs et des ressources.</li>
             </ul>
+            <p><strong>Compétences :</strong></p>
+            <p>Active Directory, Permissions NTFS, Quotas de disque, Windows PowerShell</p>
         `
     },
     {
@@ -227,9 +231,10 @@ const Menu = [
                 <li>Optimiser l'utilisation des ressources humaines et matérielles de l'université.</li>
                 <li>Améliorer la communication entre les professeurs, les étudiants et l'administration.</li>
             </ul>
+            <p><strong>Compétences :</strong></p>
+            <p>APEX, HTML, JavaScript, CSS</p>
         `
     },
-    
     {
         id: 7,
         image: Work9,
@@ -248,7 +253,7 @@ const Menu = [
                 <li>Permettre la réalisation de transactions bancaires en ligne.</li>
                 <li>Générer des rapports financiers détaillés.</li>
             </ul>
-            <p><strong>Compétences:</strong></p>
+            <p><strong>Compétences :</strong></p>
             <p>Java</p>
         `
     }
