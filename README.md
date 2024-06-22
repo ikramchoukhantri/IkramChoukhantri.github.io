@@ -7,29 +7,13 @@
   <br>
 </h1>
 
-<h4 align="center">A simple personal website about <a href="http://gregsithole.com" target="_blank">Greg Sithole</a>.</h4>
+<h4 align="center">A simple personal website about <a href="http://ikramchoukhantri.github.io" target="_blank">Greg Sithole</a>.</h4>
 
 <br>
 
-![screenshot](https://github.com/GregSithole/gregsithole-react-portfolio/raw/master/src/assets/screenshot.png)
 
-## How To Use
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/). From your command line:
 
-```bash
-# Clone this repository
-$ git clone https://github.com/GregSithole/gregsithole-react-portfolio
-
-# Go into the repository
-$ cd gregsithole-react-portfolio
-
-# Install dependencies
-$ yarn install
-
-# Run the app
-$ yarn start
-```
 
 <!-- ## Credits
 
