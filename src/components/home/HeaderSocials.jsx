@@ -16,7 +16,7 @@ const HeaderSocials = () => {
                 <FaFacebookF />
             </a>
 
-            <a href='https://twitter.com/home?lang=fr' className='home__social-link' target='_blank' rel='noreferrer'>
+            <a href='https://x.com/Ikram_chtr' className='home__social-link' target='_blank' rel='noreferrer'>
                 <FaTwitter />
             </a>
         </div>

@@ -27,6 +27,11 @@ const Contact = (props) => {
             message,
         };
 
+        console.log("Data to send:", data);
+        console.log("Service ID:", process.env.REACT_APP_EMAILJS_SERVICE_ID);
+        console.log("Template ID:", process.env.REACT_APP_EMAILJS_TEMPLATE_ID);
+        console.log("Public API Key:", process.env.REACT_APP_EMAILJS_PUBLIC_API);
+
         emailjs
             .send(
                 process.env.REACT_APP_EMAILJS_SERVICE_ID,
@@ -37,12 +42,12 @@ const Contact = (props) => {
             .then(
                 (result) => {
                     setLoading(false);
-                    toast.success(`Email envoyé avec succès.`);
+                    toast.success("Email envoyé avec succès.");
                 },
                 (error) => {
                     setLoading(false);
                     console.log(error);
-                    toast.error(error.text);
+                    toast.error("Une erreur s'est produite, veuillez réessayer.");
                 }
             );
     };

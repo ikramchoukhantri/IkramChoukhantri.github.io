@@ -19,8 +19,8 @@ const About = () => {
                 <div className="about__data grid">
                     <div className="about__info">
                         <p className="about__description">
-                            Bonjour ! Je suis Ikram, étudiante en ingénierie Business Intelligence & Analytics à l'ENSIAS. <br /><br />
-                            Ma passion pour résoudre des problèmes a commencé avec mon intérêt pour les mathématiques dès mon plus jeune âge. En grandissant, j'ai décidé de poursuivre des études en informatique, car cela peut être utilisé comme un outil pour résoudre des problèmes et aider à construire des systèmes complexes à partir de zéro en utilisant n'importe quelle technologie disponible. <br /><br />
+                        Bonjour ! Je m'appelle Ikram Choukhantri, une étudiante passionnée en ingénierie avec une spécialisation en Business Intelligence, Data Engineering et Analytics. Ma mission est de transformer les données brutes en chefs-d'œuvre stratégiques qui éclairent les décisions informées et créent une valeur tangible. Avec un éventail riche de compétences en Power BI, Tableau, Python, Data Warehousing, Intelligence Artificielle (ML & DL), et gestion de projet, je suis dévouée à l'art du storytelling de données. <br /><br />
+                        Je suis ravie de mettre mes compétences et mes connaissances au service de défis réels et de contribuer à des projets révolutionnaires qui dévoilent le véritable potentiel des données. <br /><br />
                         </p>
 
                         <ul className="about__details">
