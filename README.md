@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="http://gregsithole.com">
+  <a href="https://ikramchoukhantri.github.io/">
   <img src="./src/assets/light-logo.svg" alt="GregSithole" width="200"></a>
   <br>
   ikram's 
