@@ -68,7 +68,7 @@ const Menu = [
         title: "Représentation Graphique et Classification de Texte avec des LLM et GNN",
         category: ["Data Science"],
         url: "http://example.com/project10",
-        repositoryUrl: "https://github.com/ikramchoukhantri/GraphTextClassification",
+        repositoryUrl: "https://github.com/ikramchoukhantri/PFA_TextToGraph",
         tools: "BERT (Language Model), PyTorch, Pytorch Geometric, Cytoscape, NLTK",
         description: `
             <p><strong>Représentation Graphique et Classification de Texte avec des LLM et GNN</strong></p>

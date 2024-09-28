@@ -1,6 +1,19 @@
 const WorkExperience = [
     {
         id: 1,
+        title: "ASI: Attijari service d'integration",
+        company: "Attijariwafa Bank",
+        yearsActive: "Juillet 2024 - Septembre 2024",
+        information: [
+            "Développement d'une application web permettant de transformer les messages bancaires SWIFT MT en messages MX selon la norme ISO 20022, en utilisant React pour l'interface utilisateur.",
+            "Implémentation des fonctionnalités backend avec Spring Boot pour gérer les transformations de données conformément à la norme ISO 20022.",
+            "Utilisation de Keycloak pour la gestion des utilisateurs et l'authentification sécurisée.",
+            "Migration et gestion de la base de données à l'aide de Flyway et Postgres.",
+            "Optimisation des performances et garantie de la conformité des messages transformés aux normes SWIFT et ISO 20022."
+        ]
+    },
+    {
+        id: 2,
         title: "Analyse comparative des méthodes de clustering KMeans",
         company: "3D SMART FACTORY",
         yearsActive: "Juillet 2023 – Août 2023",
@@ -13,7 +26,7 @@ const WorkExperience = [
         ],
     },
     {
-        id: 2,
+        id: 3,
         title: "Responsable cellule dons",
         company: "CINDH",
         yearsActive: "2022 - Présent ",
@@ -26,7 +39,7 @@ const WorkExperience = [
         ],
     },
     {
-        id: 3,
+        id: 4,
         title: "Membre de cellule event et technique",
         company: "Club IEEE",
         yearsActive: "2022-2023",
