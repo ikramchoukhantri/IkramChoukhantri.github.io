@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2f5f406b.css",
-    "main.js": "/static/js/main.97dad0a2.js",
+    "main.js": "/static/js/main.10506394.js",
     "static/media/infrastructure.png": "/static/media/infrastructure.0fcb1b8a869f71894ca8.png",
     "static/media/image.png": "/static/media/image.a0c7a9c4dd792df44208.png",
     "static/media/text-graphs.png": "/static/media/text-graphs.7cc988476f93bf38c1cf.png",
@@ -13,7 +13,7 @@
     "static/media/hospital.webp": "/static/media/hospital.bffc17dcc097df1f1718.webp",
     "static/media/dwh.webp": "/static/media/dwh.1e9c6717e89f63c54c20.webp",
     "static/media/Java.webp": "/static/media/Java.f05b6fa4d97faefdf0b3.webp",
-    "static/media/resume.pdf": "/static/media/resume.603475aeb9f5f2f5fb77.pdf",
+    "static/media/resume.pdf": "/static/media/resume.8de9407498aeebed2320.pdf",
     "static/media/beautifulsoup.png": "/static/media/beautifulsoup.bfdd75a4be05a169ff90.png",
     "static/media/ssas.png": "/static/media/ssas.bad40ad379c0d8836e1e.png",
     "static/media/ssrs.png": "/static/media/ssrs.24be30fc174055fece2d.png",
@@ -26,10 +26,10 @@
     "static/media/dots-bg.svg": "/static/media/dots-bg.f9af2a6a4e3508808a05.svg",
     "index.html": "/index.html",
     "main.2f5f406b.css.map": "/static/css/main.2f5f406b.css.map",
-    "main.97dad0a2.js.map": "/static/js/main.97dad0a2.js.map"
+    "main.10506394.js.map": "/static/js/main.10506394.js.map"
   },
   "entrypoints": [
     "static/css/main.2f5f406b.css",
-    "static/js/main.97dad0a2.js"
+    "static/js/main.10506394.js"
   ]
 }
